@@ -11,6 +11,9 @@ function esBisiesto(anio){
     }
     else if (anio%4 === 0){
         result = true;
+    }
+    else{
+        result = false;
     }   
     return result;
 }
