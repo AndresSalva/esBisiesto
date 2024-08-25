@@ -8,6 +8,9 @@ function esBisiesto(anio){
         else{
             result = false;
         }
+    }
+    else if (anio%4 === 0){
+        result = true;
     }   
     return result;
 }
